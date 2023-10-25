@@ -1,5 +1,6 @@
 import random
 ventas = []
+nombresVentas= ['numeroOrden', 'cliente' ,'costo' ,'orden']
 for _ in range(1000):
     
     numeroOrden=random.randint(0,500000)
